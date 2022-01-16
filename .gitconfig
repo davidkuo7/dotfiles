@@ -1,8 +1,8 @@
 [alias]
-	st = status
+   	st = status
 	br = branch
 	ci = commit
 	co = checkout
 	unstage = reset HEAD --
 	last = log -1 HEAD
-    lg = log --oneline -n 20
+	lg = log --oneline -n 20
