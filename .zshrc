@@ -12,7 +12,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 
 # Format version control information for git to display (branch)
-zstyle ':vcs_info:git:*' formats '(%b)'
+zstyle ':vcs_info:git:*' formats ' (%b)'
 
 setopt PROMPT_SUBST
-PROMPT='%B%F{red}%n%F{cyan}-%F{green}%*:%F{white}%~ %F{blue}${vcs_info_msg_0_}%b%f '
+PROMPT='%B%F{red}%n%F{cyan}-%F{green}%*:%F{white}%~%F{blue}${vcs_info_msg_0_}%b%f '
