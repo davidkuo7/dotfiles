@@ -16,3 +16,6 @@ zstyle ':vcs_info:git:*' formats ' (%b)'
 
 setopt PROMPT_SUBST
 PROMPT='%B%F{red}%n%F{cyan}-%F{green}%*:%F{white}%~%F{blue}${vcs_info_msg_0_}%b%f '
+
+export EDITOR=vim
+export VISUAL="$EDITOR"
